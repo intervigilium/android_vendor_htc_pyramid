@@ -78,6 +78,7 @@ PRODUCT_COPY_FILES += \
   vendor/htc/pyramid/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
   vendor/htc/pyramid/proprietary/lib/libOlaEngine.so:system/lib/libOlaEngine.so \
   vendor/htc/pyramid/proprietary/lib/libposteffect.so:system/lib/libposteffect.so \
+  vendor/htc/pyramid/proprietary/lib/libdivxdrmdecrypt.so:system/lib/libdivxdrmdecrypt.so \
   vendor/htc/pyramid/proprietary/lib/libOmxCore.so:system/lib/libOmxCore.so \
   vendor/htc/pyramid/proprietary/lib/libOmxVdec.so:system/lib/libOmxVdec.so \
   vendor/htc/pyramid/proprietary/lib/libOmxVenc.so:system/lib/libOmxVenc.so \
