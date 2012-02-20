@@ -20,15 +20,12 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_COPY_FILES += \
   vendor/htc/pyramid/proprietary/bin/charging:system/bin/charging \
-  vendor/htc/pyramid/proprietary/bin/hdmid:system/bin/hdmid \
   vendor/htc/pyramid/proprietary/bin/htcbatt:system/bin/htcbatt \
   vendor/htc/pyramid/proprietary/bin/ipd:system/bin/ipd \
-  vendor/htc/pyramid/proprietary/bin/ip:system/bin/ip \
   vendor/htc/pyramid/proprietary/bin/load-modem.sh:system/bin/load-modem.sh \
   vendor/htc/pyramid/proprietary/bin/mpdecision:system/bin/mpdecision \
   vendor/htc/pyramid/proprietary/bin/netmgrd:system/bin/netmgrd \
   vendor/htc/pyramid/proprietary/bin/netsharing:system/bin/netsharing \
-  vendor/htc/pyramid/proprietary/bin/rild:system/bin/rild \
   vendor/htc/pyramid/proprietary/bin/rmt_storage:system/bin/rmt_storage \
   vendor/htc/pyramid/proprietary/bin/thermald:system/bin/thermald \
   vendor/htc/pyramid/proprietary/bin/qmuxd:system/bin/qmuxd \
