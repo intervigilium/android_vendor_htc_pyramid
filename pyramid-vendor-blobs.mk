@@ -18,6 +18,7 @@
 PRODUCT_COPY_FILES += \
   vendor/htc/pyramid/proprietary/lib/libacdbloader.so:obj/lib/libacdbloader.so \
   vendor/htc/pyramid/proprietary/lib/libacdbmapper.so:obj/lib/libacdbmapper.so \
+  vendor/htc/pyramid/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so \
   vendor/htc/pyramid/proprietary/lib/libril.so:obj/lib/libril.so \
 
 PRODUCT_COPY_FILES += \
@@ -108,7 +109,5 @@ PRODUCT_COPY_FILES += \
   vendor/htc/pyramid/proprietary/lib/libqmi.so:system/lib/libqmi.so \
   vendor/htc/pyramid/proprietary/lib/libhtc_ril.so:system/lib/libhtc_ril.so \
   vendor/htc/pyramid/proprietary/lib/libril.so:system/lib/libril.so \
-  vendor/htc/pyramid/proprietary/lib/hw/audio_policy.default.so:system/lib/hw/audio_policy.default.so \
-  vendor/htc/pyramid/proprietary/lib/hw/audio.primary.default.so:system/lib/hw/audio.primary.default.so \
   vendor/htc/pyramid/proprietary/lib/hw/camera.default.so:system/lib/hw/camera.default.so \
   vendor/htc/pyramid/proprietary/lib/hw/sensors.pyramid.so:system/lib/hw/sensors.pyramid.so
