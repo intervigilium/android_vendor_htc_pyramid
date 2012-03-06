@@ -19,6 +19,8 @@ PRODUCT_COPY_FILES += \
   vendor/htc/pyramid/proprietary/lib/libril.so:obj/lib/libril.so \
 
 PRODUCT_COPY_FILES += \
+  vendor/htc/pyramid/proprietary/bin/bluetoothd:system/bin/bluetoothd \
+  vendor/htc/pyramid/proprietary/bin/btld:system/bin/btld \
   vendor/htc/pyramid/proprietary/bin/charging:system/bin/charging \
   vendor/htc/pyramid/proprietary/bin/htcbatt:system/bin/htcbatt \
   vendor/htc/pyramid/proprietary/bin/ipd:system/bin/ipd \
@@ -65,6 +67,14 @@ PRODUCT_COPY_FILES += \
   vendor/htc/pyramid/proprietary/etc/firmware/vidc_1080p.fw:system/etc/firmware/vidc_1080p.fw \
   vendor/htc/pyramid/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
   vendor/htc/pyramid/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
+  vendor/htc/pyramid/proprietary/lib/libbluedroid.so:system/lib/libbluedroid.so \
+  vendor/htc/pyramid/proprietary/lib/libbluetoothd.so:system/lib/libbluetoothd.so \
+  vendor/htc/pyramid/proprietary/lib/libbluetooth.so:system/lib/libbluetooth.so \
+  vendor/htc/pyramid/proprietary/lib/libglib.so:system/lib/libglib.so \
+  vendor/htc/pyramid/proprietary/lib/libbluez-plugin/audio.so:system/lib/libbluez-plugin/audio.so \
+  vendor/htc/pyramid/proprietary/lib/libbluez-plugin/bluetooth-health.so:system/lib/libbluez-plugin/bluetooth-health.so \
+  vendor/htc/pyramid/proprietary/lib/libbluez-plugin/input.so:system/lib/libbluez-plugin/input.so \
+  vendor/htc/pyramid/proprietary/lib/libbluez-plugin/network.so:system/lib/libbluez-plugin/network.so \
   vendor/htc/pyramid/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
   vendor/htc/pyramid/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
   vendor/htc/pyramid/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
